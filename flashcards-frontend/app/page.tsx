@@ -1,10 +1,9 @@
 import React from 'react';
-import NavBar from './atoms/components/NavBar/NavBar';
 
 const HomePage = () => {
   return (
     <div>
-      <NavBar />
+      HomePage
     </div>
   )
 };

@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+.body {
+  background-color: #eaead4;
+}
+
+.nav-container {
+  background-color: #26667F;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-button {
+  color: white;
+  padding: 0.4rem;
+}
+
+.nav-button:hover {
+  color: #79aabd;
+}

@@ -1,8 +1,20 @@
-import React from 'react'
+import React from 'react';
+import Link from 'next/link';
 
-const NavButton = () => {
+interface NavButtonProps {
+  href: string;
+  children: React.ReactNode;
+};
+
+
+const NavButton: React.FC<NavButtonProps> = ({
+  href,
+  children
+}) => {
   return (
-    <div>NavButton</div>
+    <Link href={href} className='nav-button'>
+      {children}
+    </Link>
   )
 }
 

@@ -1,25 +1,25 @@
-import Link from 'next/link';
 import React from 'react';
+import NavButton from './NavButton/NavButton';
 
 const NavBar = () => {
   return (
-    <>
-      <Link href="/">
+    <div className="nav-container">
+      <NavButton href="/">
         Home
-      </Link>
+      </NavButton>
 
-      <Link href="/word-bank">
+      <NavButton href="/word-bank">
         Word Bank
-      </Link>
+      </NavButton>
 
-      <Link href="/practice">
+      <NavButton href="/practice">
         Practice
-      </Link>
+      </NavButton>
 
-      <Link href="/profile">
+      <NavButton href="/profile">
         My profile
-      </Link>
-    </>
+      </NavButton>
+    </div>
   )
 };
 

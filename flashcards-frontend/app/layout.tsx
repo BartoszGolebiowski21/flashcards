@@ -1,3 +1,7 @@
+import './globals.css';
+import NavBar from './atoms/components/NavBar/NavBar';
+
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -6,6 +10,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <NavBar />
         {children}
       </body>
     </html>
