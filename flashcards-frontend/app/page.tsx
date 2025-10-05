@@ -1,9 +1,10 @@
 import React from 'react';
+import NavBar from './atoms/components/NavBar/NavBar';
 
 const HomePage = () => {
   return (
     <div>
-      Welcome to simple flashcards app!
+      <NavBar />
     </div>
   )
 };
