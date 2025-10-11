@@ -5,17 +5,17 @@
 }
 
 .nav-container {
-  background-color: #26667F;
+  background-color: #233142;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
 }
 
 .nav-button {
-  color: white;
+  color: #ececec;
   padding: 0.4rem;
 }
 
 .nav-button:hover {
-  color: #79aabd;
+  color: #bbe4e9;
 }
